@@ -16,10 +16,9 @@ KMeans
     # Elbow Plot 
     sns.lineplot(x = list(range(2, 11)), y = distance)
     ```
-    - Elbow Plot
     ![alt text](image.png)
 
-    - Limitation of Elbow Plt
+    - Limitation of Elbow plot
       - plot이 위와 같이 smooth 하게 나올 경우, 어디가 최적의 K 값인지 알기 어려움
 
 - Silhouatte Score
